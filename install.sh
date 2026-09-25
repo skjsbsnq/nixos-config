@@ -15,8 +15,8 @@
 # 可覆盖变量：USER_NAME=xxx HOST_NAME=yyy bash install.sh
 #
 # 刚装完的最小系统上没有这个仓库时，任选一种方式拉下来：
-#   curl -L https://github.com/<你的用户名>/<仓库>/archive/refs/heads/main.tar.gz | tar xz
-#   nix-shell -p git --run 'git clone https://github.com/<你的用户名>/<仓库>.git'
+#   curl -L https://github.com/skjsbsnq/nixos-config/archive/refs/heads/main.tar.gz | tar xz
+#   nix-shell -p git --run 'git clone https://github.com/skjsbsnq/nixos-config.git'
 # 然后进目录执行 bash install.sh
 # ============================================================
 
